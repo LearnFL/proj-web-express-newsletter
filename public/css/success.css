@@ -1,0 +1,62 @@
+div {
+  margin-top: 1rem;
+  background-color: #EEEEEE;
+  height: 100%;
+  width :95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Rubik Distressed', cursive, sans-serif;
+  font-size: 15rem;
+  color: #FF6464;
+}
+
+h2 {
+  color: #FF6464;
+  margin-bottom: 3%;
+}
+h3 {
+  color: #0C1E7F;
+}
+h3 > i {
+  margin-right: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3:hover {
+  color: #393E46;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 10rem;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  h1 {
+    font-size: 8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
