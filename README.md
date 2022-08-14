@@ -23,9 +23,13 @@ https://glacial-crag-91653.herokuapp.com
 9. git push heroku main
 10. heroku open app.js
 
-View logs: heroku logs --tail
-Scale to a hobby or pro dyno: heroku ps:scale web=0 (then this command) heroku ps:scale web=1
-Run locally on port 5000: heroku local web
+####View logs: 
+heroku logs --tail
+####Scale to a hobby or pro dyno: 
+heroku ps:scale web=0 
+heroku ps:scale web=1
+####Run locally on port 5000: 
+heroku local web
 
 #### Screenshot
 <img width="1349" alt="Screen Shot 2022-08-13 at 8 31 15 PM" src="https://user-images.githubusercontent.com/86169204/184517738-22e236f8-d131-43e9-99c3-7f0d9e41126a.png">
