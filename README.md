@@ -14,7 +14,7 @@ https://glacial-crag-91653.herokuapp.com
 #### HEROKU
 1. brew tap heroku/brew && brew install heroku
 2. Heroku login (heroku login -i  if IP is not recognized)
-3. echo web: npm start >> Procfile
+3. echo web: node app.js >> Procfile
 4. git init
 5. Change branch name to main.
 6. git .add 
