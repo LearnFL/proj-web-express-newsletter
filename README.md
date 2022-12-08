@@ -6,6 +6,8 @@ Built with NodeJS and ExpressJS.
 #### Challenged by 
 [The London App Brewery](https://www.appbrewery.co)
 
+#### Copyright by London App Brewery.
+
 #### Coded by 
 Dennis Rotnov
 #### See Live application 
